@@ -17,13 +17,13 @@
 ### 2.配置客户端参数　　
 　　这里将 windows　下导出的 JSON 格式的参数复制到　**/etc/v2ray/config.json** 文件来配置你需要的代理方式；
 
-### 3.v2ray 服务启动和关闭命令　　
-　　　　```
+### 3.v2ray 服务启动和关闭命令  
+```
     sudo systemctl start v2ray
 
-　　　　sudo systemctl stop v2ray
+　　 sudo systemctl stop v2ray
 
-　　　　sudo systemctl restart v2ray
+　 　sudo systemctl restart v2ray
 
 　   ``` 
 
@@ -32,7 +32,7 @@
 　　　打开网络设置，代理设置为手动，更改　SOcks Host:127.0.0.1 端口是自己配置的参数：10808
 
 <div align=center>
-<img src="https://github.com/zhaoyuRobotics/OpenGL_Demo/blob/master/openglRuning.gif" width="636" height="510" align=center/>
+<img src="https://github.com/zhaoyuRobotics/OpenSourceFrameworkTestDemo/blob/master/v2ray/proxy.png" width="636" height="510" align=center/>
 </div>
 
 
