@@ -11,9 +11,9 @@ https://www.imcaviare.com/2018-12-18-1/  重点讲了启动和关闭 v2ray　的
   
    运行命令:  
    
-     ```
+```
      sudo bash go.sh --local ./v2ray-linux-64.zip  
-     ```  
+```  
    
    其中go.sh是安装自动化脚本，使用该脚本执行下载下来的离线安装包，安装过程需要root权限.
 
@@ -45,10 +45,10 @@ https://www.imcaviare.com/2018-12-18-1/  重点讲了启动和关闭 v2ray　的
 ### 注意：这里没有设置成功　PAC 分流代理（区分国内国外网址，这样做的好处是当启动代理后国内的网址也可以很快的访问）
     还是记录下生成PAC的命令： 
  
-    ```
+```
      genpac --proxy="SOCKS 127.0.0.1:10808" --gfwlist-proxy="SOCKS5 127.0.0.1:10808" -o autoproxy.pac --gfwlist-url="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
 
-    ```
+```
 
 
 
