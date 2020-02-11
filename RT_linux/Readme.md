@@ -81,7 +81,7 @@ MAX:最大延时
   
   
 十五个线程比较测试（左侧为RT_Linux  右侧围标准内核）
-![15_thread_test](https://github.com/zhaoyuRobotics/OpenSourceFrameworkTestDemo/blob/master/RT_linux/比较_15.png) 
+![15_thread_test](https://github.com/zhaoyuRobotics/OpenSourceFrameworkTestDemo/blob/master/RT_linux/比较15.png) 
   
   
 
