@@ -81,7 +81,7 @@ MAX:最大延时
   
   
 十五个线程比较测试（左侧为RT_Linux  右侧围标准内核）
-![１5_thread_test](https://github.com/zhaoyuRobotics/OpenSourceFrameworkTestDemo/blob/master/RT_linux/比较_１5.png) 
+![15_thread_test](https://github.com/zhaoyuRobotics/OpenSourceFrameworkTestDemo/blob/master/RT_linux/比较_15.png) 
   
   
 
@@ -89,7 +89,7 @@ MAX:最大延时
 
 ### ４．补充
 
-1.判断一个内核是否打好　ＲＴ(real time)补丁方法：
+  1.判断一个内核是否打好　ＲＴ(real time)补丁方法：
 ```xml
 $ cat /boot/config_4.9.201-rt134 | grep CONFIG_PREEMPT_RT
 
@@ -105,5 +105,5 @@ CONFIG_PREEMPT_RT_FULL = y
     
     
 	
-###   参考：
+### 参考：
   https://blog.csdn.net/v6543210/article/details/80941906
