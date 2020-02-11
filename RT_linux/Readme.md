@@ -55,7 +55,7 @@ sudo make install -j2
 ```xml
 　uname -a
 ```
-**会发现，是 4.9.201-rt134  PREEMPT RT
+**会发现，是 4.9.201-rt134  PREEMPT RT**  
 
 　　
   
