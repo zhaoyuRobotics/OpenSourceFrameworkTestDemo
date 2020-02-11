@@ -8,13 +8,11 @@
 
 (1)  下载 LInux 内核（注意：ｒｔ补丁包并不是所有的内核版本都有，我的是16.04对应的内核版本是4.10.0.  那么我找了相近的内核版本下载：4.9）
 
-[Linux内核下载 (Kernel) 清华大学镜像源][1]
-[1]: https://mirror.tuna.tsinghua.edu.cn/kernel/v4.x/
+[Linux内核下载 (Kernel) 清华大学镜像源](https://mirror.tuna.tsinghua.edu.cn/kernel/v4.x/)
 
 (2) 下载补丁包
 
-[Patch(补丁包)下载][２]
-[２]: https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/
+[Patch(补丁包)下载](https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/)
 
 
 (3) 解压内核并且打补丁(将下载的两个文件放入同一目录下)
@@ -68,14 +66,17 @@ sudo make install -j2
 sudo cyclictest -p 80 -t5 -m -n -i 1000 -l 10000 --priospread
 ```
 参数解释：
-Ｔ：开启的线程序号
-Ｐ：优先级
-Ｃ：时间间隔没达到多少次，计数器加１
-Ｉ：时间间隔，默认是１０００微妙
-MIN:最小延迟
-ACT:最近一次延迟
-AVG:平均延时
+Ｔ：开启的线程序号  
+Ｐ：优先级  
+Ｃ：时间间隔没达到多少次，计数器加１  
+Ｉ：时间间隔，默认是１０００微妙  
+MIN:最小延迟  
+ACT:  最近一次延迟  
+AVG:平均延时  
 MAX:最大延时
+  
+  
+  
 
 
 
