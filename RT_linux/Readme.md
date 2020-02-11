@@ -73,8 +73,15 @@ sudo cyclictest -p 80 -t5 -m -n -i 1000 -l 10000 --priospread
 MIN:最小延迟  
 ACT:  最近一次延迟  
 AVG:平均延时  
-MAX:最大延时
+MAX:最大延时  
   
+五个线程比较测试（左侧为RT_Linux  右侧围标准内核）
+![5_thread_test](https://github.com/zhaoyuRobotics/OpenSourceFrameworkTestDemo/blob/master/RT_linux/比较_5.png)  
+  
+  
+  
+十五个线程比较测试（左侧为RT_Linux  右侧围标准内核）
+![１5_thread_test](https://github.com/zhaoyuRobotics/OpenSourceFrameworkTestDemo/blob/master/RT_linux/比较_１5.png) 
   
   
 
@@ -95,6 +102,8 @@ CONFIG_PREEMPT_RT_FULL = y
   大体上测试延时会减小，但是有些仍会比优化前的延时高，这点没有得到论文中印证。
   
   　　
+    
+    
 	
 ###   参考：
   https://blog.csdn.net/v6543210/article/details/80941906
