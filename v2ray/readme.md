@@ -7,17 +7,15 @@ https://www.imcaviare.com/2018-12-18-1/  重点讲了启动和关闭 v2ray　的
 
 ### 1.离线安装v2ray客户端(因为在线装慢)：  
 　　
-   离线的　**安装包https://github.com/v2ray/v2ray-core/releases** 和 **脚本文件**  
-　　获取脚本：
-```
-　　wget https://install.direct/go.sh  
-```　　
+   离线的　**安装包https://github.com/v2ray/v2ray-core/releases** 和 **脚本文件**  　
 
   
-   运行命令:  
+   获取脚本以及安装命令:  
    
 ```
-     sudo bash go.sh --local ./v2ray-linux-64.zip  
+　　wget https://install.direct/go.sh　　
+     
+　  sudo bash go.sh --local ./v2ray-linux-64.zip  
 ```  
    
    其中go.sh是安装自动化脚本，使用该脚本执行下载下来的离线安装包，安装过程需要root权限.
