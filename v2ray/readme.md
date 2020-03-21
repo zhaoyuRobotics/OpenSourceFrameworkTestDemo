@@ -9,9 +9,9 @@ https://www.imcaviare.com/2018-12-18-1/  重点讲了启动和关闭 v2ray　的
 　　
    离线的　**安装包https://github.com/v2ray/v2ray-core/releases** 和 **脚本文件**  
 　　获取脚本：
-｀｀｀
-　　wget https://install.direct/go.sh
-｀｀｀　　
+```
+　　wget https://install.direct/go.sh  
+```　　
 
   
    运行命令:  
