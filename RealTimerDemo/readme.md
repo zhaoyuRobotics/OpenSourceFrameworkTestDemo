@@ -2,7 +2,7 @@
 　　<br>
   **在使用　rt_linux　系统，并且线程绑定cpu 和 grub设置孤立cpu　后，　延时5ms还是很准的**  
 
-<br>  
+
 ###  设置步骤：  
 
 1. 线程中绑定cpu，详见main.cpp  
