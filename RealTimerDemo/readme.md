@@ -9,7 +9,6 @@
 <br>
 
 2. cpu孤立:  
-<br>
 在系统中通过 /etc/default/grub 修改 编辑 /etc/default/grub 文件 ,在 quiet splash后面加上 isolcpus=2　(2指的是逻辑核，详细操作以及验证见pdf)
 
 
